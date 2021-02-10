@@ -1,0 +1,73 @@
+
+h2{
+    color:verdana;
+}
+h1{
+    border:solid;  color:#000000;
+    background-color: #33aadd;
+    
+}
+p{
+    color:#000000;
+    border: solid;
+    background-color: #22ff00;
+}
+.header{
+    background-color:#333333;
+    display:flex;
+    justify-content: space-between;
+}
+.grid{
+
+    display:flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.item{
+    margin-right: 30px;
+}
+img{
+    border:solid;
+    justify-content:space-between;
+    display:center;
+    align-content: center;
+}
+.footer{
+    color:cyan;
+    display:flex;
+    justify-content: flex-end;
+    
+}
+body{
+    background-color: #888888;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:oblique;
+    color: #ffffee;
+}
+.item{
+    position: relative;
+}
+
+
+.item:hover img{
+    opacity:0.66;
+    transform: scale(1.2);
+}
+.origami :hover{
+    transform: scale(1.2);
+}
+
+a{
+    text-decoration: none;
+}
+   .a:hover{
+       transform: scale(5.9) ;
+   }
+a:link{
+    color:coral
+}
+a:visited{
+    color:lawngreen
+}
